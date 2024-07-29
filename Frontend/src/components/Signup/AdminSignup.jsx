@@ -17,7 +17,7 @@ export const AdminSignup = () => {
       alert("Please enter both the fields.");
       return;
     }
-    fetch(`http://localhost:3000/admin/signup` , {
+    fetch(`https://letslearn-3.onrender.com/admin/signup` , {
       method: "POST",
       headers:{
         "Content-Type": "application/json"
