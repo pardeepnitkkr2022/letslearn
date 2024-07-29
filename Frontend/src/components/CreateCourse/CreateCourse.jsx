@@ -14,7 +14,7 @@ export const CreateCourse = () => {
       alert("Please fill all the fields.");
       return;
     }
-    fetch("https://letslearn-3.onrender.com/admin/courses", {
+    fetch("https://letslearn-8.onrender.com/admin/courses", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
