@@ -9,7 +9,7 @@ export const EditCourse = () => {
   const [course, setCourse] = useState(null);
 
   useEffect(() => {
-    fetch(`https://letslearn-3.onrender.com/admin/courses/${courseId}`, {
+    fetch(`https://letslearn-8.onrender.com/admin/courses/${courseId}`, {
       method: "GET",
       headers: {
         Authorization: "Bearer " + localStorage.getItem("admintoken"),
@@ -83,7 +83,7 @@ function Editform({ course, setCourse }) {
       price,
       imageLink,
     };
-    fetch(`https://letslearn-3.onrender.com/admin/courses/${course._id}`, {
+    fetch(`https://letslearn-8.onrender.com/admin/courses/${course._id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
