@@ -16,7 +16,7 @@ export const AdminLogin = () => {
       alert("Please enter both the fields.");
       return;
     }
-    fetch(`https://letslearn-3.onrender.com/admin/login` , {
+    fetch(`https://letslearn-8.onrender.com/admin/login` , {
       method: "POST",
       headers:{
         "Content-Type": "application/json"
