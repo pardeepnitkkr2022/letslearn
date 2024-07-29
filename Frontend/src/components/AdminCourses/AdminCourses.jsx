@@ -8,7 +8,7 @@ export const AdminCourses = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://letslearn-3.onrender.com/admin/courses", {
+    fetch("https://letslearn-8.onrender.com/admin/courses", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("admintoken"),
       },
