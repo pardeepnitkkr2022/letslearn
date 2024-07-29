@@ -1,0 +1,26 @@
+h1{
+    margin: 5px;
+    text-align: center;
+    font-family: "Mukta";
+}
+
+.signup{
+    background: linear-gradient(135deg, rgb(80, 31, 154), rgb(204, 255, 204), rgb(75, 75, 154));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+.card{
+    height: 43%;
+    width: 30%;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius:17px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
