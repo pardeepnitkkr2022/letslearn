@@ -9,7 +9,7 @@ const userRoutes = require("./routes/userRoutes");
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+console.log(process.env);
 const PORT = process.env.PORT || 3000;
 const DATABASE_URL = process.env.DATABASE_URL;
 
