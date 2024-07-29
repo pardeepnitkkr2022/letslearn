@@ -12,7 +12,7 @@ export const UserCourses = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("https://letslearn-3.onrender.com/users/courses")
+    fetch("https://letslearn-8.onrender.com/users/courses")
       .then((response) => {
         return response.json();
       })
@@ -28,7 +28,7 @@ export const UserCourses = () => {
       return;
     }
     axios
-      .post(`https://letslearn-3.onrender.com/users/courses/${courseId}`, null, {
+      .post(`https://letslearn-8.onrender.com/users/courses/${courseId}`, null, {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("usertoken"),
         },
