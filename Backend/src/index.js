@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
@@ -11,6 +12,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 const DATABASE_URL = process.env.DATABASE_URL;
+
 
 // Connect to the Database
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true })
