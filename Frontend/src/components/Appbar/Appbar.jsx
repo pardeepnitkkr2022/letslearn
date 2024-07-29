@@ -20,7 +20,7 @@ export const Appbar = () => {
 
   useEffect(() => {
     if (localStorage.getItem("usertoken")) {
-      fetch("http://localhost:3000/users/me", {
+      fetch("https://letslearn-3.onrender.com/users/me", {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("usertoken"),
         },
@@ -41,7 +41,7 @@ export const Appbar = () => {
         .catch((err) => {});
     }
     if (localStorage.getItem("admintoken")) {
-      fetch("http://localhost:3000/admin/me", {
+      fetch("https://letslearn-3.onrender.com/admin/me", {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("admintoken"),
         },
